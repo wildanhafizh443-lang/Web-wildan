@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌴 Wisata Indonesia - Kontak 🌴</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* ====== GAYA DASAR ====== */
+        
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5fbf9;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .header {
+            background-color: #009688;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .footer {
+            background-color: #004d40;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        
+        .menu {
+            width: 20%;
+            background-color: #e0f2f1;
+            vertical-align: top;
+            padding: 20px;
+            font-weight: bold;
+        }
+        
+        .menu a {
+            display: block;
+            text-decoration: none;
+            color: #004d40;
+            margin-bottom: 10px;
+        }
+        
+        .menu a:hover {
+            color: #009688;
+        }
+        
+        .content {
+            padding: 30px;
+            background-color: #f5fbf9;
+        }
+        
+        h2 {
+            color: #004d40;
+        }
+        
+        label {
+            font-weight: bold;
+        }
+        
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 80%;
+            padding: 8px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+        
+        input[type="submit"] {
+            background-color: #009688;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #00796b;
+        }
+        /* ====== TOMBOL KONTAK ====== */
+        
+        .contact-buttons {
+            margin-top: 20px;
+        }
+        
+        .wa-button,
+        .ig-button {
+            display: inline-block;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 10px;
+            transition: 0.3s;
+        }
+        
+        .wa-button {
+            background-color: #25D366;
+        }
+        
+        .wa-button:hover {
+            background-color: #1ebe5d;
+        }
+        
+        .ig-button {
+            background-color: #E1306C;
+        }
+        
+        .ig-button:hover {
+            background-color: #c62a5d;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td colspan="2" class="header">🌴 Wisata Indonesia - Kontak 🌴</td>
+        </tr>
+        <tr>
+            <td class="menu">
+                <a href="index.html">Home</a>
+                <a href="galeri.html">Galeri</a>
+                <a href="kontak.html">Kontak</a>
+            </td>
+            <td class="content">
+                <h2>Hubungi Kami</h2>
+                <p>Jika Anda ingin mengetahui lebih banyak tentang wisata Indonesia, silakan hubungi kami melalui form di bawah ini:</p>
+
+                <form>
+                    <label>Nama:</label><br>
+                    <input type="text" name="nama"><br><br>
+
+                    <label>Email:</label><br>
+                    <input type="email" name="email"><br><br>
+
+                    <label>Pesan:</label><br>
+                    <textarea rows="5" cols="30"></textarea><br><br>
+
+                    <input type="submit" value="Kirim">
+                </form>
+
+                <hr>
+
+                <h3>Atau hubungi langsung kami melalui:</h3>
+                <div class="contact-buttons">
+                    <a href="https://wa.me/6285212945931?text=Halo%20Wisata%20Indonesia,%20saya%20ingin%20bertanya%20tentang%20paket%20wisata." target="_blank" rel="noopener" class="wa-button">
+                        💬 Chat via WhatsApp
+                    </a>
+
+                    <a href="https://www.instagram.com/xzawldh12_/" target="_blank" rel="noopener" class="ig-button">
+                        📷 Chat via Instagram
+                    </a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="footer">&copy; 2025 Wisata Indonesia</td>
+        </tr>
+    </table>
+</body>
+
+</html>
